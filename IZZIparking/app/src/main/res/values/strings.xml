@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">IZZI parking</string>
+    <string name="app_name">IZZI PARKING</string>
+    <string name="text">PROMEDIO DEL ESTUDIANTE</string>
+    <string name="mat1">Materia 1</string>
+    <string name="mat2">Materia 2</string>
+    <string name="mat3">Materia 3</string>
+    <string name="bot">Promediar</string>
+
+
+    <string name="num1">Digite numero 1</string>
+    <string name="num2">Digite numero 2</string>
+
+
+    <string name="sum">Sumar</string>
+    <string name="res">Restar</string>
+    <string name="mul">Multiplicar</string>
+    <string name="div">Dividir</string>
+    <string name="fact">factorial</string>
+    <string name="title">IZZI PARKING</string>
+    <string name="email">Nombre de usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="tel">Telefono</string>
+    <string name="direc">Direccion</string>
+    <string name="name">Nombres</string>
+    <string name="apell">Apellidos</string>
+
+
+    <string name="cal">Calcular</string>
+
+    <string name="result">Resultado</string>
 </resources>
