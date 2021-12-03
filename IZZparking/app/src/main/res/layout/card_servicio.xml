@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".a"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    app:cardCornerRadius="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:maxHeight="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camaras"
+            app:srcCompat="@drawable/camaras" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:text="Circuito cerrado"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@+id/titulo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="48dp"
+            android:text="Protege tu carro de la forma mas confiable y segura." />
+
+        <Button
+            android:id="@+id/btn_servicio1"
+            android:layout_width="173dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="10dp"
+            android:text="+ informacion" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

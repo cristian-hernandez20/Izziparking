@@ -1,0 +1,29 @@
+{% extends "ProyectoWeb/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    {% for puesto in puestos %}
+
+  
+    <section class="page-section clearfix">
+        <div class="container-parqueo">
+
+
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+              <h2 class="section-heading mb-4" >
+                <span class="section-heading-lower"><p>A{{puesto.ubicacion}}</p></span>
+                <div></p></div>
+                <span class="section-heading-upper">{{puesto.ocupado}}</span>
+              </h2>
+            </div>
+          </div>
+          
+    </section>
+    <br> <br>
+
+    {% endfor %}
+
+
+{% endblock %}
