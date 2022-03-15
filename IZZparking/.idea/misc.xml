@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/IZZparking/app/src/main/res/layout/activity_estes.xml" value="0.1" />
+        <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/IZZparking/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/IZZparking/app/src/main/res/layout/activity_registro.xml" value="0.1" />
+        <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/IZZparking/app/src/main/res/layout/card_servicio.xml" value="0.1" />
+        <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/IZZparking/app/src/main/res/layout/services.xml" value="0.1" />
         <entry key="..\:/Users/CRISTIAN/Documents/GitHub/Izziparking/proyectoizziparking/app/src/main/res/layout/services.xml" value="0.1" />
       </map>
     </option>
